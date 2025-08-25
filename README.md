@@ -4,7 +4,7 @@
 If you are interested in having the GNU Tools on macOS without using `brew`, take a look at [GNU Tools for macOS](https://github.com/kozyilmaz/tools) repo.
 
 ### How To Use
-```console
+```shell
 # run the mc.sh after cloning the repo
 $ sh mc.sh
 ```
@@ -30,7 +30,7 @@ glib
 
 ### Final Output
 ```console
-# after the compilation and installation, this is what you will get under  /usr/local
+# after the compilation and installation, this is what you will get under /usr/local
 $ sw_vers
 ProductName:		macOS
 ProductVersion:		14.7.8
