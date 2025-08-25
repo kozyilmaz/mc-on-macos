@@ -30,7 +30,7 @@ glib
 
 ### Final Output
 ```console
-# after the compilation and installation, this is what you'll get under /usr/local
+# after the compilation and installation, this is what you will get under  /usr/local
 $ sw_vers
 ProductName:		macOS
 ProductVersion:		14.7.8
