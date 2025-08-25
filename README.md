@@ -1,6 +1,25 @@
 # Midnight Commander on macOS
-Midnight Commander on macOS aims to create a macOS native and minimal installation for `mc` by compiling `autotools` and linking dependency libraries like `libffi` and `glib` statistically
+Midnight Commander on macOS aims to create a macOS native and minimal installation for `mc` by compiling `autotools` and linking dependency libraries like `libffi` and `glib` statically
 
+### Compiled Tools
+```console
+m4
+autoconf
+automake
+libtool
+pkg-config
+ninja
+meson
+```
+
+### Compiled Packages
+```console
+libffi (static library)
+glib   (static library)
+mc
+```
+
+### Output
 ```console
 $ sw_vers
 ProductName:		macOS
