@@ -1,5 +1,6 @@
 # Midnight Commander on macOS
-Midnight Commander on macOS aims to create a macOS native and minimal installation for `mc` by compiling `autotools` and linking dependency libraries like `libffi` and `glib` statically
+'Midnight Commander on macOS' is a script to build a macOS-native and minimal `mc` by compiling `autotools` and linking dependency libraries like `libffi` and `glib` statically (without installing them at all). This way, users can enjoy Midnight Commander without using `brew`  
+If you are interested in having the GNU Tools on macOS without using `brew`, take a look at github.com/kozyilmaz/tools
 
 ### Compiled Tools
 ```bash
