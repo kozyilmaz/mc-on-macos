@@ -1,7 +1,7 @@
 # mc-on-macos
 Midnight Commander on macOS
 
-```shell
+```console
 $ sw_vers
 ProductName:		macOS
 ProductVersion:		14.7.8
