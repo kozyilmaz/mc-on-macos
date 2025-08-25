@@ -3,7 +3,7 @@ Midnight Commander on macOS aims to create a macOS native and minimal installati
 
 ### Compiled Tools
 ```bash
-# only compiled into temporary directories, not installed to /usr/local)
+# used for compilation, only installed into temporary directories, not installed to /usr/local
 m4
 autoconf
 automake
@@ -15,7 +15,7 @@ meson
 
 ### Compiled Dependencies
 ```bash
-# only compiled into temporary directories, as static libraries
+# used as dependencies, only installed into temporary directories as static libraries, not installed to /usr/local
 libffi
 glib
 ```
