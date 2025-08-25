@@ -2,7 +2,8 @@
 Midnight Commander on macOS aims to create a macOS native and minimal installation for `mc` by compiling `autotools` and linking dependency libraries like `libffi` and `glib` statically
 
 ### Compiled Tools
-```console
+```bash
+# only compiled to temporary directory, not installed to /usr/local)
 m4
 autoconf
 automake
@@ -12,11 +13,11 @@ ninja
 meson
 ```
 
-### Compiled Packages
-```console
-libffi (static library)
-glib   (static library)
-mc
+### Compiled Dependencies
+```bash
+# only compiled to temporary directory, 
+libffi
+glib
 ```
 
 ### Output
