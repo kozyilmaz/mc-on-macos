@@ -1,5 +1,5 @@
-# mc-on-macos
-Midnight Commander on macOS
+# Midnight Commander on macOS
+Midnight Commander on macOS aims to create a macOS native and minimal installation for `mc` by compiling `autotools` and linking dependency libraries like `libffi` and `glib` statistically
 
 ```console
 $ sw_vers
