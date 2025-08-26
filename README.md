@@ -3,6 +3,8 @@
 **NOTE** The script will ask credentials to install `mc` to `/usr/local` at the very last step.  
 If you are interested in having the GNU Tools on macOS without using `brew`, take a look at [GNU Tools for macOS](https://github.com/kozyilmaz/tools) repo.
 
+![Midnight Commander on macOS](mc.png)
+
 ### How To Use
 ```shell
 # run the mc.sh after cloning the repo
